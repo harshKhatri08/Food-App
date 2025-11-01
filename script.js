@@ -116,12 +116,25 @@ ScrollReveal().reveal(".right #instruction-1",{
     delay:1000,
 })
  
-ScrollReveal().reveal(".download-app h2",{
+ScrollReveal().reveal("#download-txt",{
     ...scrollOption,
     delay:500,
 })
 
-ScrollReveal().reveal(".download-app h4",{
+ScrollReveal().reveal(".f-left h4",{
     ...scrollOption,
     delay:1000,
 })
+
+ScrollReveal().reveal("i",{
+    ...scrollOption,
+    delay:1500,
+    duration:1000
+});
+
+ScrollReveal().reveal("#copyright-txt",{
+    ...scrollOption,
+    delay:2000,
+    duration:1000
+});
+
